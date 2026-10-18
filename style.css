@@ -9,7 +9,7 @@ a { color: #ff6b5e; }
 .hero::after { content: ''; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(8,9,11,.92) 0%, rgba(8,9,11,.55) 50%, rgba(8,9,11,.1)), linear-gradient(0deg, rgba(11,12,15,1) 0%, rgba(11,12,15,0) 40%); }
 .hero-in { position: relative; z-index: 1; padding-bottom: 64px; padding-top: 40px; width: 100%; }
 .brand { display: flex; align-items: center; gap: 12px; font-weight: 800; letter-spacing: .08em; margin-bottom: 18px; }
-.brand img { border-radius: 12px; }
+.brand img { display: block; width: min(288px, 70vw); height: auto; filter: drop-shadow(0 6px 20px rgba(0,0,0,.5)); }
 h1 { font-size: clamp(40px, 7vw, 76px); line-height: 1; margin: 0 0 16px; letter-spacing: -.01em; text-transform: uppercase; font-style: italic; }
 h1::after { content: ''; display: block; width: 72px; height: 5px; background: var(--acc); margin-top: 18px; }
 .lead { max-width: 34em; font-size: 19px; color: #d6d9de; margin: 0 0 24px; }
